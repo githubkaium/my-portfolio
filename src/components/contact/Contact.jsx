@@ -21,7 +21,9 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/shake.svg" alt="" />
+                <h2>About Me</h2>
+                <div><img src="assets/my-portfolio-img.png" alt="" /></div>
+                <p>Assalamu Alaikum, I'm Mohammad Al Kaium. Basically I'm working with MERN stack technology and my focus is React Front-End Web Development. I have completed several personal Projects with ReactJS, Bootstrap, MaterialUI, NodeJS, ExpressJS, MongoDB, Firebase.</p>
             </div>
             <div className="right">
                 <h2>Contact</h2>

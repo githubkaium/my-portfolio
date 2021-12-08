@@ -9,16 +9,34 @@
   }
 
   .left {
-    flex: 1;
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 
+    @include mobile {
+      display: none;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
     img {
-      height: 100%;
+      height: 250px;
+      width: 250px;
+    }
+
+    p {
+      width: 45%;
+      text-align: justify;
     }
   }
 
   .right {
-    flex: 1;
+    flex: 0.5;
     display: flex;
     flex-direction: column;
     align-items: center;
