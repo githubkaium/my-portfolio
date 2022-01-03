@@ -9,7 +9,7 @@ export default function Works() {
             id: "1",
             icon: "./assets/globe.png",
             title: "Online Shop Website",
-            desc: "Google sign-in and Email Sign-in enabled. Admin can manage All Products and Orders. Include JWT verification system.",
+            desc: "Google sign-in and Email Sign-in enabled. Admin can manage All Products and Orders. Include JWT verification system. Swagger integrated",
             img: "./assets/online-shop.png",
             project: "https://pipilica-shop.web.app",
             link1: "https://github.com/githubkaium/pipilica-shop-client-pp",
