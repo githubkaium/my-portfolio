@@ -27,7 +27,8 @@ export default function Intro() {
                     <h1>MOHAMMAD AL KAIUM</h1>
                     <h3>Skills: <span ref={textRef}></span></h3>
                 <div className="resumeBtn">
-                    <a href="assets/Resume of MOHAMMAD AL KAIUM.pdf" download="Resume of MOHAMMAD AL KAIUM.pdf">
+                    {/* <a href="assets/Resume of MOHAMMAD AL KAIUM.pdf" download="Resume of MOHAMMAD AL KAIUM.pdf"> */}
+                    <a href="https://docs.google.com/document/d/1wECMsTn_0eJpHirFNTElpxY5De-xcZgET9RVmNpd82I/edit?usp=sharing" download="Resume of MOHAMMAD AL KAIUM.pdf">
                     <button>Get Resume</button>
                     </a>
                     </div>
